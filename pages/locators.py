@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 
+
 class AuthLocators:
     AUTH_EMAIL = (By.ID, 'username')
     AUTH_PASS = (By.ID, 'password')
@@ -16,6 +17,7 @@ class AuthLocators:
     AUTH_LINK_UA2 = (By.XPATH, '//*[@id="rt-footer-agreement-link"]/span[2]')
     AUTH_LINK_PHONE = (By.XPATH, '//*[@id="app-footer"]/div[2]/a')
 
+
 class RegLocators:
     REG_FIRST_NAME = (By.NAME, 'firstName')
     REG_LAST_NAME = (By.NAME, 'lastName')
@@ -28,3 +30,4 @@ class RegLocators:
     REG_LINK_CP = (By.XPATH, '//*[@id="rt-footer-agreement-link"]/span[1]')
     REG_LINK_UA2 = (By.XPATH, '//*[@id="rt-footer-agreement-link"]/span[2]')
     REG_LINK_PHONE = (By.XPATH, '//*[@id="app-footer"]/div[2]/a')
+    
