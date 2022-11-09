@@ -1,7 +1,6 @@
 from .base_page import BasePage
 from .locators import AuthLocators
 import os
-import time
 
 
 class AuthPage(BasePage):
@@ -33,5 +32,4 @@ class AuthPage(BasePage):
 
     def btn_click(self):
         self.btn.click()
-
-    time.sleep(3)
+        
